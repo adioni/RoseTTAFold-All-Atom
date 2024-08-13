@@ -200,7 +200,7 @@ class ModelRunner:
         return err_dict
 
 
-@hydra.main(version_base=None, config_path='config/inference')
+@hydra.main(version_base=None, config_path=os.getcwd())
 def main(config):
     runner = ModelRunner(config)
     runner.infer()
