@@ -1,7 +1,7 @@
 #!/bin/bash
 # From: https://github.com/RosettaCommons/RoseTTAFold
 
-export BLASTMAT=$PIPE_DIR/blast-2.2.26/data/
+export BLASTMAT=$blast_path/blast-2.2.26/data/
 
 DATADIR="$CONDA_PREFIX/share/psipred_4.01/data"
 echo $DATADIR

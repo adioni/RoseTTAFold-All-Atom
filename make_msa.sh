@@ -16,8 +16,8 @@ SCRIPT=`realpath -s $0`
 export PIPE_DIR=`dirname $SCRIPT`
 
 # sequence databases
-DB_UR30="${params.uniref30_variable}"
-DB_BFD="${params.bfd_variable}"
+DB_UR30="$uniref30_path"
+DB_BFD="$bfd_path"
 
 # Running signalP 6.0
 mkdir -p $out_dir/signalp
